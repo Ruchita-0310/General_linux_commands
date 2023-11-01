@@ -10,8 +10,8 @@ sudo chown arch Ruchita
 
 # macOS file transfer
 ```
-scp -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null ~/Downloads/file_name.faa arch@206.12.90.119:/bio/data/Ruchita # upload files from mac to ARC
-scp -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null  arch@206.12.90.119:/bio/data/Ruchita/file_name ~/Downloads    # download files from ARC to mac
+scp ~/Downloads/file_name.faa arch@206.12.90.119:/path/to/your/directory # upload files from mac to ARC
+scp arch@206.12.90.119:/path/to/file_name ~/Downloads    # download files from ARC to mac
 ```
 # Unzip
 ```
